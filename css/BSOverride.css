@@ -1,4 +1,13 @@
-.card-img-top{
+.card-img-top
+	{
     width: 100%;
     height: 32vh;
-}
+    }
+
+.backsplash
+    {
+    background-image: url('../img/backdrop.jpg');
+    background-size:cover;
+    font-size: 20vh !important;
+    }
+
