@@ -11,3 +11,22 @@
     font-size: 20vh !important;
     }
 
+.parallax
+    {
+    /* The image used */
+    background-image: url("../img/backdrop.jpg")!important;
+
+    /* Set a specific height */
+    min-height: 700px!important; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+
+    text-align: center;
+    font-size: 20vh;
+    color: white;
+    }
+
