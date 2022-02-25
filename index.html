@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/boxicons.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>TeamBandit Capstone</title>
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+        <!-- NAVBAR -->
+        <nav
+            class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-white"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="img/OutlawsLogo.png" alt="" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Our Stack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio"
+                                >Documentation</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- //NAVBAR -->
+
+        <!-- HERO -->
+        <div class="hero vh-100 d-flex align-items-center" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 mx-auto text-center">
+                        <h1 class="display-4 text-white">
+                            TeamBandit: Teams Management Portal
+                        </h1>
+                        <p class="text-white my-3">
+                            As the pace of the Information Revolution continues
+                            to accelerate, there has been a fundamental shift
+                            towards small, agile, autonomous development teams
+                            in the software workplace. Unfortunately, training
+                            in real-world, cross- functional teaming skills is
+                            not keeping pace; there are few realistic team-
+                            project-based courses visible in most CS program
+                            curricula. A main reason for this is the sheer
+                            logistic effort of organizing and delivering a
+                            team-based educational experience. What is needed is
+                            comprehensive technical solution to streamline the
+                            delivery of team-based project courses.
+                        </p>
+
+                        <a href="#services" class="btn me-2 btn-primary"
+                            >Read More</a
+                        >
+                        <a href="#services" class="btn me-2 btn-primary"
+                            >Watch Video</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //HERO -->
+
+        <!-- SERVICES -->
+        <section id="services">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">SERVICES</h6>
+                        <h1>The Power of TeamBandit</h1>
+                        <p>
+                            TeamBandit is a sophisticated web- application that
+                            directly addresses and streamlines the key logistic
+                            challenges presented by team-based course
+                            organization, including the initial project
+                            solicitation, collection and refinement effort;
+                            project selection by course students; strategic
+                            formation of well-balanced teams; and many other
+                            logistics of course execution.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect bounceInUp">
+                            <div class="iconbox">
+                                <i class="bx bxs-comment-detail"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Email Hub</h5>
+                            <p>
+                                Powerful communication manager that filters and
+                                organizes email communications between course
+                                faculty, outside clients, and project teams!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-heart"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Dynamic Assignment</h5>
+                            <p>
+                                Organizers have the power to assign students to
+                                projects based on their custom preferences,
+                                making sure everyone is pleased at the end of
+                                the day!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-cog"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Website Generation</h5>
+                            <p>
+                                Populate templated websites for your students
+                                utilizing the assignments that they have turned
+                                in throughout the semester, giving them unique
+                                sites such as this one to show off!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-rocket"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Dynamic Data In/Out</h5>
+                            <p>
+                                With mass data upload using CSVs, switching your
+                                classes over to TeamBandit can't be easier. Get
+                                useful reports back out using your TeamBandit
+                                data.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-rocket"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Service</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Nihil perspiciatis illo
+                                asperiores perferendis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-doughnut-chart"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Service</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Nihil perspiciatis illo
+                                asperiores perferendis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES -->
+
+        <!-- FEATURES -->
+        <section class="row w-100 py-0 bg-light" id="features">
+            <div class="col-lg-6 col-img"></div>
+            <div class="col-lg-6 py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h6 class="text-primary">Our Stack</h6>
+                            <h1>PERN</h1>
+                            <p>
+                                PERN is a powerful stack for building
+                                web-applications, consisting of the technologies
+                                listed below. To learn more about why we chose
+                                this stack, read our Technological Feasibility
+                                Document in the Documentation section!
+                            </p>
+
+                            <div class="feature d-flex mt-5">
+                                <div class="iconbox me-3">
+                                    <i class="bx bx-data"></i>
+                                </div>
+                                <div>
+                                    <h5>PostgreSQL</h5>
+                                    <p>
+                                        PostgreSQL is a powerful, open source
+                                        object-relational database system with
+                                        over 30 years of active development.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature d-flex">
+                                <div class="iconbox me-3">
+                                    <i class="bx bx-server"></i>
+                                </div>
+                                <div>
+                                    <h5>Express</h5>
+                                    <p>
+                                        Express is a minimal and flexible
+                                        Node.js web application framework that
+                                        provides a robust set of features for
+                                        web and mobile applications.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature d-flex">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxl-react"></i>
+                                </div>
+                                <div>
+                                    <h5>React</h5>
+                                    <p>
+                                        React is a declarative, efficient, and
+                                        flexible JavaScript library for building
+                                        user interfaces.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature d-flex">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxl-nodejs"></i>
+                                </div>
+                                <div>
+                                    <h5>Node</h5>
+                                    <p>
+                                        As an asynchronous event-driven
+                                        JavaScript runtime, Node.js is designed
+                                        to build scalable network applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FEATURES -->
+
+        <!-- PROJECTS -->
+        <section id="portfolio">
+            <div class="container-fluid">
+                <div class="row mb-3">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">DOCUMENTATION</h6>
+                        <h1>Technical Documents</h1>
+                        <p>
+                            Each of these documents was written by the Outlaws
+                            Team throughout the year and contains valuable
+                            information behind the planning and execution of
+                            TeamBandit's development
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-sm-6">
+                        <a
+                            href="documentation/Team Standards Team Outlaws.pdf"
+                            target="_blank"
+                        >
+                            <div class="project">
+                                <img src="img/pro1.jpg" alt="" />
+                                <div class="overlay">
+                                    <div>
+                                        <h4 class="text-white">
+                                            Team Standards
+                                        </h4>
+                                        <h6 class="text-white">
+                                            Document detailing expectations and
+                                            protocols regarding team members
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a
+                            href="documentation/Tech Feasibility Team Outlaws.pdf"
+                            target="_blank"
+                        >
+                            <div class="project">
+                                <img src="img/pro2.jpg" alt="" />
+                                <div class="overlay">
+                                    <div>
+                                        <h4 class="text-white">
+                                            Technical Feasibility
+                                        </h4>
+                                        <h6 class="text-white">
+                                            Detailed info on how we chose our
+                                            stack
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a
+                            href="documentation/Requirements Specification - TeamBandit.pdf"
+                            target="_blank"
+                        >
+                            <div class="project">
+                                <img src="img/pro3.jpg" alt="" />
+                                <div class="overlay">
+                                    <div>
+                                        <h4 class="text-white">
+                                            Requirements Specification
+                                        </h4>
+                                        <h6 class="text-white">
+                                            Document detailing functional and
+                                            performance requirements
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a
+                            href="documentation/Software Design Document.pdf"
+                            target="_blank"
+                        >
+                            <div class="project">
+                                <img src="img/pro4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div>
+                                        <h4 class="text-white">
+                                            Software Design
+                                        </h4>
+                                        <h6 class="text-white">
+                                            Document with information on the
+                                            system's architecture
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/uipic.png" alt="" />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Future Document</h4>
+                                    <h6 class="text-white">Coming Soon!</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                            <img src="img/uipic2.png" alt="" />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="text-white">Project Title</h4>
+                                    <h6 class="text-white">Coming Soon!</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROJECTS -->
+
+        <!-- PRICING -->
+        <section id="pricing" class="bg-light">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">PRICING</h6>
+                        <h1>Our Fair & Simple Pricing</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur nisi
+                            necessitatibus repellat distinctio eveniet eaque
+                            fuga in cumque optio consectetur harum vitae debitis
+                            sapiente praesentium aperiam aut
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="pricing card-effect text-center">
+                            <h6>STARTER</h6>
+                            <h1>$99</h1>
+                            <hr />
+                            <ul class="list-unstyled mb-4">
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Premium
+                                    support
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> 30+
+                                    Webmaster Tools
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Drag &
+                                    Drop Builder
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>
+                                    eCommerce Store
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>Wordpress
+                                    plugins
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="pricing card-effect text-center">
+                            <h6>STARTER</h6>
+                            <h1>$199</h1>
+                            <hr />
+                            <ul class="list-unstyled mb-4">
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Premium
+                                    support
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> 30+
+                                    Webmaster Tools
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Drag &
+                                    Drop Builder
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>
+                                    eCommerce Store
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>Wordpress
+                                    plugins
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="pricing card-effect text-center">
+                            <h6>STARTER</h6>
+                            <h1>$299</h1>
+                            <hr />
+                            <ul class="list-unstyled mb-4">
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Premium
+                                    support
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> 30+
+                                    Webmaster Tools
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Drag &
+                                    Drop Builder
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>
+                                    eCommerce Store
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>Wordpress
+                                    plugins
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="pricing card-effect text-center">
+                            <h6>STARTER</h6>
+                            <h1>$399</h1>
+                            <hr />
+                            <ul class="list-unstyled mb-4">
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Premium
+                                    support
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> 30+
+                                    Webmaster Tools
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i> Drag &
+                                    Drop Builder
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>
+                                    eCommerce Store
+                                </li>
+                                <li>
+                                    <i class="bx bxs-check-circle"></i>Wordpress
+                                    plugins
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PRICING -->
+
+        <!-- TEAM -->
+        <section id="team mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">TEAM</h6>
+                        <h1>Meet Our Team</h1>
+                        <p>
+                            Meet Team Outlaws, a four person capstone group
+                            working with our mentor Dr. Doerry. Feel free to
+                            click the links under each person's name to get more
+                            detailed information about them, including their
+                            team inventory document on the left or their resume
+                            on the right.
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center g-4 my-3 mt-0">
+                    <div class="col-lg-3 col-sm-6 mx-auto">
+                        <div class="team-member card-effect">
+                            <img src="img/DrDoerryHeadshot.jpeg" alt="" />
+                            <h5 class="mb-0 mt-4">Dr. Doerry</h5>
+                            <p>Client</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"
+                                    ><i class="bx bxl-instagram-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center g-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-member card-effect">
+                            <img src="img/quinn.png" alt="" />
+                            <h5 class="mb-0 mt-4">Quinn Melssen</h5>
+                            <p>Team Leader</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"
+                                    ><i class="bx bxl-instagram-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-member card-effect">
+                            <img src="img/max.png" alt="" />
+                            <h5 class="mb-0 mt-4">Max Mosier</h5>
+                            <p>Developer</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"
+                                    ><i class="bx bxl-instagram-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-member card-effect">
+                            <img src="img/dakota.png" alt="" />
+                            <h5 class="mb-0 mt-4">Dakota Battle</h5>
+                            <p>Developer</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"
+                                    ><i class="bx bxl-instagram-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-member card-effect">
+                            <img src="img/liam.png" alt="" />
+                            <h5 class="mb-0 mt-4">Liam Scholl</h5>
+                            <p>Developer</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"
+                                    ><i class="bx bxl-instagram-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TEAM -->
+
+        <!-- BLOG -->
+        <section id="blog" class="bg-light">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">BLOG</h6>
+                        <h1>Latest News From The Blog</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur nisi
+                            necessitatibus repellat distinctio eveniet eaque
+                            fuga in cumque optio consectetur harum vitae debitis
+                            sapiente praesentium aperiam aut
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="blog-post card-effect">
+                            <img src="img/blog1.jpg" alt="" />
+                            <h5 class="mt-4">
+                                <a href="#"
+                                    >harum vitae debitis sapiente praesentium
+                                    aperiam au</a
+                                >
+                            </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur nisi
+                                necessitatibus repellat distinctio eveniet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-post card-effect">
+                            <img src="img/blog2.jpg" alt="" />
+                            <h5 class="mt-4">
+                                <a href="#"
+                                    >harum vitae debitis sapiente praesentium
+                                    aperiam au</a
+                                >
+                            </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur nisi
+                                necessitatibus repellat distinctio eveniet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-post card-effect">
+                            <img src="img/blog3.jpg" alt="" />
+                            <h5 class="mt-4">
+                                <a href="#"
+                                    >harum vitae debitis sapiente praesentium
+                                    aperiam au</a
+                                >
+                            </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur nisi
+                                necessitatibus repellat distinctio eveniet
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BLOG -->
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">CONTACT</h6>
+                        <h1>Get In Touch</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur nisi
+                            necessitatibus repellat distinctio eveniet eaque
+                            fuga in cumque optio consectetur harum vitae debitis
+                            sapiente praesentium aperiam aut
+                        </p>
+                    </div>
+                </div>
+
+                <form action="" class="row g-3 justify-content-center">
+                    <div class="col-md-5">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Full Name"
+                        />
+                    </div>
+                    <div class="col-md-5">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter E-mail"
+                        />
+                    </div>
+                    <div class="col-md-10">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter Subject"
+                        />
+                    </div>
+                    <div class="col-md-10">
+                        <textarea
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="5"
+                            class="form-control"
+                            placeholder="Enter Message"
+                        ></textarea>
+                    </div>
+                    <div class="col-md-10 d-grid">
+                        <button class="btn btn-primary">Contact</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- CONTACT -->
+
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-4">
+                            <img class="logo" src="img/logo-white.svg" alt="" />
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="text-white">Brand</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="text-white">More</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">FAQ's</a></li>
+                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#">Warranty</a></li>
+                                <li><a href="#">Shipment</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5 class="text-white">Contact</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    Address: 2715 Ash Dr. San Jose, South Dakota
+                                    83475
+                                </li>
+                                <li>Email: jackson.graham@example.com</li>
+                                <li>Phone: (603) 555-0123</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mb-0">
+                                © 2020 copyright all right reserved | Designed
+                                with
+                                <i class="bx bx-heart text-danger"></i> by<a
+                                    href="https://www.youtube.com/channel/UCYMEEnLzGGGIpQQ3Nu_sBsQ"
+                                    class="text-white"
+                                    >SA7MAN</a
+                                >
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-icons">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"
+                                    ><i class="bx bxl-instagram-alt"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
