@@ -87,7 +87,7 @@ img {
 }
 
 .logo2 {
-    width:150px;
+    width: 150px;
 }
 .navbar .nav-link {
     font-size: 16px;
@@ -103,7 +103,7 @@ img {
     border-width: 2px;
     border-radius: 0;
     border-color: #fac01a;
-    background-color:#002454;
+    background-color: #002454;
 }
 
 .hero {
@@ -193,6 +193,13 @@ section {
 
 .col-img {
     background-image: url(../img/stack.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-img-solution {
+    background-image: url(../img/solution.png);
     background-position: center;
     background-size: cover;
     min-height: 500px;
@@ -295,4 +302,8 @@ form .form-control {
 
 .footer-bottom {
     background-color: #242933;
+}
+
+a {
+    text-decoration: none;
 }

@@ -35,9 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html"
-                                >Home</a
-                            >
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="project.html">Project</a>
@@ -48,12 +46,12 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="technologies.html"
+                            <a class="nav-link active" href="technologies.html"
                                 >Technologies</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#documentation"
+                            <a class="nav-link" href="documentation.html"
                                 >Documentation</a
                             >
                         </li>
@@ -75,43 +73,83 @@
         </nav>
         <!-- //NAVBAR -->
 
-        <!-- HERO -->
-        <div class="hero vh-100 d-flex align-items-center" id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 mx-auto text-center">
-                        <h1 class="display-4 text-white">
-                            TeamBandit: Teams Management Portal
-                        </h1>
-                        <p class="text-white my-3">
-                            As the pace of the Information Revolution continues
-                            to accelerate, there has been a fundamental shift
-                            towards small, agile, autonomous development teams
-                            in the software workplace. Unfortunately, training
-                            in real-world, cross- functional teaming skills is
-                            not keeping pace; there are few realistic team-
-                            project-based courses visible in most CS program
-                            curricula. A main reason for this is the sheer
-                            logistic effort of organizing and delivering a
-                            team-based educational experience. What is needed is
-                            comprehensive technical solution to streamline the
-                            delivery of team-based project courses.
-                        </p>
+        <!-- STACK -->
+        <section class="row w-100 py-0 bg-light" id="features">
+            <div class="col-lg-6 col-img"></div>
+            <div class="col-lg-6 py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h6 class="text-primary">Our Stack</h6>
+                            <h1>PERN</h1>
+                            <p>
+                                PERN is a powerful stack for building
+                                web-applications, consisting of the technologies
+                                listed below. To learn more about why we chose
+                                this stack, read our Technological Feasibility
+                                Document in the Documentation section!
+                            </p>
 
-                        <a href="project.html" class="btn me-2 btn-primary"
-                            >Read More</a
-                        >
-                        <a
-                            href="https://www.youtube.com/watch?v=-oYU7xq9z3o"
-                            target="_blank"
-                            class="btn me-2 btn-primary"
-                            >Watch Video</a
-                        >
+                            <div class="feature d-flex mt-5">
+                                <div class="iconbox me-3">
+                                    <i class="bx bx-data"></i>
+                                </div>
+                                <div>
+                                    <h5>PostgreSQL</h5>
+                                    <p>
+                                        PostgreSQL is a powerful, open source
+                                        object-relational database system with
+                                        over 30 years of active development.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature d-flex">
+                                <div class="iconbox me-3">
+                                    <i class="bx bx-server"></i>
+                                </div>
+                                <div>
+                                    <h5>Express</h5>
+                                    <p>
+                                        Express is a minimal and flexible
+                                        Node.js web application framework that
+                                        provides a robust set of features for
+                                        web and mobile applications.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature d-flex">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxl-react"></i>
+                                </div>
+                                <div>
+                                    <h5>React</h5>
+                                    <p>
+                                        React is a declarative, efficient, and
+                                        flexible JavaScript library for building
+                                        user interfaces.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature d-flex">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxl-nodejs"></i>
+                                </div>
+                                <div>
+                                    <h5>Node</h5>
+                                    <p>
+                                        As an asynchronous event-driven
+                                        JavaScript runtime, Node.js is designed
+                                        to build scalable network applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- FOOTER -->
+        </section>
+        <!-- STACK -->
+
         <footer>
             <div class="footer-top">
                 <div class="container">
@@ -142,7 +180,6 @@
                 </div>
             </div>
         </footer>
-
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
